@@ -13,83 +13,82 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
         }
         .profile-card {
             background-color: #ffffff;
-            border: 1px solid #dcdcdc;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             width: 80%;
             max-width: 600px;
-            padding: 20px;
-            text-align: center;
+            padding: 20px 30px;
+            text-align: left;
+            color: #333;
         }
-        .profile-card img {
-            border-radius: 50%;
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
             width: 120px;
             height: 120px;
+            border-radius: 50%;
             object-fit: cover;
-            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        .profile-card h1 {
-            color: #6c63ff;
+        .header h1 {
             font-size: 1.8em;
-            margin-bottom: 10px;
+            color: #4a90e2;
+            margin: 10px 0 5px;
         }
-        .profile-card p {
-            color: #555;
+        p {
             margin: 5px 0;
         }
         .section-title {
-            color: #4caf50;
+            color: #4a90e2;
             font-size: 1.2em;
             margin-top: 20px;
             margin-bottom: 10px;
         }
         ul {
-            list-style-type: none;
-            padding: 0;
-            text-align: left;
+            list-style-type: disc;
+            padding-left: 20px;
         }
         ul li {
             margin: 5px 0;
-            color: #333;
         }
     </style>
 </head>
 <body>
     <div class="profile-card">
-        <img src="C:\Users\HP\Pictures\sky.jpg" alt="Profile Picture">
-        <h1>ประวัติส่วนตัว</h1>
-        <p><strong>ชื่อ:</strong> นางสาวรัตวิน โชยสินดี</p>
-        <p><strong>วันเกิด:</strong> 8 กันยายน 2545</p>
+        <div class="header">
+            <img src="sky.jpg" alt="Profile Picture">
+            <h1>ประวัติส่วนตัว</h1>
+        </div>
+        
+        <p><strong>ชื่อ:</strong> นางสาวสุกัญญา จำปาแก้ว</p>
+        <p><strong>วันเกิด:</strong> 27 กันยายน 2545</p>
         <p><strong>อายุ:</strong> 22 ปี</p>
-        <p><strong>การศึกษา:</strong> สาขาวิชาการจัดการคอมพิวเตอร์และเทคโนโลยีสารสนเทศ<br>คณะวิทยาศาสตร์ มหาวิทยาลัยราชภัฏอุดรธานี</p>
-        
+        <p><strong>การศึกษา:</strong> สาขาวิชาการจัดการคอมพิวเตอร์และเทคโนโลยีสารสนเทศ<br>
+        คณะวิทยาศาสตร์ มหาวิทยาลัยราชภัฏอุดรธานี</p>
+
         <h2 class="section-title">โครงการปัจจุบัน</h2>
-        <p>ระบบตรวจสอบความผิดปกติและแจ้งเตือนข้อมูลสภาพแวดล้อมภายในบ้าน</p>
-        
+        <p>ระบบดูแลและจัดแสดงแบบออนไลน์ของสวนสัตว์เขาสวนกวาง</p>
+
         <h2 class="section-title">เครื่องมือที่ใช้ในการพัฒนา</h2>
         <p><strong>Software:</strong></p>
         <ul>
-            <li>โปรแกรม Arduino</li>
-            <li>Frontend</li>
-            <li>แอปพลิเคชัน LINE Notify</li>
-            <li>ภาษา C</li>
-            <li>ภาษา PHP</li>
-            <li>MySQL</li>
-            <li>Xampp</li>
+            <li>โปรแกรมจัดการฐานข้อมูล: MySQL </li>
+            <li>โปรแกรมที่ใช้ในการพัฒนา: Visual Studio Code</li>
+            <li>ภาษาคอมพิวเตอร์ที่ใช้: HTML5, CSS, PHP</li>
+            <li>โปรแกรมเว็บเซิร์ฟเวอร์: Apache Web Server</li>
         </ul>
         <p><strong>Hardware:</strong></p>
         <ul>
-            <li>บอร์ด ESP32</li>
-            <li>สาย Micro USB</li>
-            <li>เซ็นเซอร์ MQ-2</li>
-            <li>สายไฟเบอร์</li>
-            <li>ลำโพง Buzzer</li>
-            <li>จอแสดงผล LCD</li>
-            <li>โมดูลเซนเซอร์ DHT11</li>
+            <li>หน่วยประมวลผลกลาง (CPU) : Intel Core i5-1135G7</li>
+            <li>หน่วยความจำหลัก : 16 GB</li>
+            <li>หน่วยเก็บข้อมูล (Hard Disk) : 500 GB</li>
+
         </ul>
     </div>
 </body>
