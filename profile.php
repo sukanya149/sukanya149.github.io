@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: "Prompt", sans-serif;
-            background-color: #f9f9f9;
+            background-color: #FCEEE2; /* พื้นหลังนอก */
             margin: 0;
             padding: 0;
             display: flex;
@@ -18,6 +18,7 @@
         .profile-card {
             background-color: #ffffff;
             border-radius: 15px;
+            border: 8px solid #F3EBD2; /* ขอบด้านนอก */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             width: 80%;
             max-width: 600px;
@@ -88,7 +89,6 @@
             <li>หน่วยประมวลผลกลาง (CPU) : Intel Core i5-1135G7</li>
             <li>หน่วยความจำหลัก : 16 GB</li>
             <li>หน่วยเก็บข้อมูล (Hard Disk) : 500 GB</li>
-
         </ul>
     </div>
 </body>
